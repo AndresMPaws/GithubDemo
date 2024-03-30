@@ -60,5 +60,5 @@ body:
           value: Frequently
         - label: Always
           value: Always
-      validations:
-        required: true
+    validations:
+      required: true
