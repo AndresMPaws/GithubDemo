@@ -24,6 +24,20 @@ body:
         If you have a suggestion for correcting the typo, please provide it here.
     validations:
         required: false
+  - type: dropdown
+    id: Frequency
+    attributes:
+      label: Frequency
+      description: |
+        How often does this typo occur?
+      multiple: false
+      options:
+        - Once
+        - Occasionally
+        - Frequently
+        - Always
+    validations:
+      required: true
   - type: checkboxes
     id: terms
     attributes:
@@ -32,25 +46,3 @@ body:
       options:
         - label: I agree to follow this project's Code of Conduct
           required: true
-  - type: markdown
-    attributes:
-      value: |
-        **Confirmation:**
-        Your typo report has been submitted successfully. Thank you for your contribution!
-  - type: dropdown
-    id: Frequency
-    attributes:
-      label: Frequency
-      description: |
-        How often does this typo occur?
-      options:
-        - label: Once
-          value: Once
-        - label: Occasionally
-          value: Occasionally
-        - label: Frequently
-          value: Frequently
-        - label: Always
-          value: Always
-    validations:
-      required: true
