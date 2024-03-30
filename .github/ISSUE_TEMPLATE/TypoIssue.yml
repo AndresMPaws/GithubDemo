@@ -22,7 +22,7 @@ body:
       label: Suggestion for Correction
       description: |
         If you have a suggestion for correcting the typo, please provide it here.
-      validations:
+    validations:
         required: false
   - type: checkboxes
     id: terms
