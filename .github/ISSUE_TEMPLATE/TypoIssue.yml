@@ -16,14 +16,6 @@ body:
       description: Place a snippet of markdown code, or indicate in which folder and under where sub heading it's located
     validations:
       required: true
-  - type: file
-    id: Screenshot
-    attributes:
-      label: Upload a Screenshot
-      description: |
-        You can upload a screenshot to provide additional context for the typo.
-    validations:
-        required: false
   - type: textarea
     id: CorrectionSuggestion
     attributes:
